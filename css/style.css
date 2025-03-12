@@ -1,3 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p {
+  margin-bottom: 10px;
+}
+
 #tasks-box {
   margin: auto;
   width: 50vw;
@@ -9,6 +19,7 @@
   width: 100%;
   height: 80%;
   background-color: antiquewhite;
+  overflow: scroll;
 }
 
 #input-field {
@@ -21,10 +32,4 @@
 #task {
   width: 300px;
   height: 40px;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
 }
